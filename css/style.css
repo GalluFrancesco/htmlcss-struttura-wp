@@ -36,32 +36,32 @@ header{
 .container .box2{
     height: 100px;
     width: 100%;
-    margin-bottom: 20px;
     background-color: #ABCFE7;
 }
 
-.raw{
-    height: 400px;
+.color{
+    background-color: #0185FE;
     width: 100%;
-    margin-bottom: 30px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.raw{
+    height: 100%;
+    width: 100%;
 }
 
 .sidebar{
-    height: 400px;
+    height: 100%;
     width: 25%;
     float: left;
-    padding-right: 10px;
 }
 
-.sidebar2{
-    height: 400px;
-    width: 25%;
-    float: left;
-    padding-left: 10px;
-}
 
 main{
-    height: 400px;
+    height: 100%;
     width: 50%;
     float: left;
     padding-left: 10px;
